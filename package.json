@@ -1,7 +1,7 @@
 {
-  "name": "{{TODO_REPO_NAME}}",
+  "name": "fiddle-vite-cloudflare-monorepo",
   "version": "0.0.0",
-  "description": "{{TODO_DESCRIPTION}}",
+  "description": "Trying to get a multi-Cloudflare-Worker monorepo working with Vite.",
   "type": "module",
   "module": "dist/index.js",
   "unpkg": "dist/index.min.js",
@@ -21,10 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saibotsivad/{{TODO_REPO_NAME}}.git"
+    "url": "git+https://github.com/saibotsivad/fiddle-vite-cloudflare-monorepo.git"
   },
   "keywords": [
-    "{{TODO_KEYWORDS}}"
+    "vite",
+    "cloudflare",
+    "workers",
+    "cf-workers",
+    "cloudflare-workers"
   ],
   "author": {
     "name": "Tobias Davis",
@@ -33,9 +37,9 @@
   },
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/saibotsivad/{{TODO_REPO_NAME}}/issues"
+    "url": "https://github.com/saibotsivad/fiddle-vite-cloudflare-monorepo/issues"
   },
-  "homepage": "https://github.com/saibotsivad/{{TODO_REPO_NAME}}",
+  "homepage": "https://github.com/saibotsivad/fiddle-vite-cloudflare-monorepo",
   "devDependencies": {
     "@saibotsivad/eslint-config-saibotsivad": "*"
   }
