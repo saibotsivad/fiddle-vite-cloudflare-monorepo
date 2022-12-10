@@ -1,0 +1,10 @@
+{
+  "name": "api-v2",
+  "private": true,
+  "type": "module",
+  "mrln": {
+    "root": {
+      "runtime": "_runtime/cloudflare-worker"
+    }
+  }
+}

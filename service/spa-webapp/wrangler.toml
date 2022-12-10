@@ -1,0 +1,37 @@
+workers_dev = false
+compatibility_date = "2022-12-09"
+
+main = "build/worker.js"
+
+routes = [
+	"http://localhost:3000/app",
+	"http://localhost:3000/app/",
+	"http://localhost:3000/app/*",
+]
+
+[site]
+bucket = "public"
+
+[vars]
+ENVIRONMENT = "local"
+
+[env.local]
+name = "spa-webapp-local"
+
+[env.develop]
+name = "spa-webapp-develop"
+vars = { ENVIRONMENT = "develop" }
+routes = [
+	"develop.example.com/app",
+	"develop.example.com/app/",
+	"develop.example.com/app/*"
+]
+
+[env.production]
+name = "spa-webapp-production"
+vars = { ENVIRONMENT = "production" }
+routes = [
+	"example.com/app",
+	"example.com/app/",
+	"example.com/app/*"
+]

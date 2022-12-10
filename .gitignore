@@ -2,6 +2,9 @@
 /node_modules
 .DS_Store
 
+# monorepo symlinks
+/service/*/node_modules
+
 # personal local files
 /configuration.js
 /configuration.sh
